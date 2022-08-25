@@ -1,0 +1,18 @@
+.footer {
+  color: #fff;
+  background: #cd212a;
+  position: relative; /*El div será ubicado con relación a la pantalla*/
+  left: 0px; /*A la derecha deje un espacio de 0px*/
+  right: 0px; /*A la izquierda deje un espacio de 0px*/
+  bottom: 0px; /*Abajo deje un espacio de 0px*/
+  height: 80px; /*alto del div*/
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Sansita", sans-serif;
+}

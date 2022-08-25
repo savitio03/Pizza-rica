@@ -1,0 +1,31 @@
+.container {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.datos-label {
+  font-size: 20px;
+}
+
+.form-control {
+  border: 1px solid black;
+}
+
+form input,textarea{
+  border-radius: 20px;
+}
+
+form textarea {
+  min-height: 100px;
+}
+
+form button {
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgba(0, 140, 69, 0.5);
+  border: none;
+  border-radius: 40px;
+}

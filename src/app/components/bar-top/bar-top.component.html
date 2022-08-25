@@ -1,0 +1,33 @@
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <img routerLink="inicio" routerLinkActive="active" src="../../../assets/img/logo.png" alt="logo-pizza" />
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="justify-content: right">
+      <ul class="navbar-nav">
+        <div class="container-link">
+          <li class="nav-item">
+            <a id="link" class="nav-link animate__heartBeat" routerLink="pedidos" routerLinkActive="active"
+              href="../contenido-inicial/contenido-inicial.component.html">Pedidos</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" routerLink="catalogo" routerLinkActive="active"
+              href="../contenido-inicial/contenido-inicial.component.html">Pizzas</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" routerLink="tiendas" routerLinkActive="active"
+              href="../contenido-inicial/contenido-inicial.component.html">Tiendas</a>
+          </li>
+          <li class="nav-item">
+            <a id="link" class="nav-link" routerLink="inicio-sesion" routerLinkActive="active"
+              href="../iniciosesion/iniciosesion.component.html">LOGIN</a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
